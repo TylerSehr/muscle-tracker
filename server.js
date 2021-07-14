@@ -9,7 +9,7 @@ app.use(express.static('build'));
 app.get ('/', (req, res) => res.send('API Runing'));
 
 // Define Routes
-app.use('/api/users', require('./routes/api/users'));
+// app.use('/api/users', require('./routes/api/users'));
 
 const PORT = process.env.PORT || 5001;
 
