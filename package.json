@@ -32,7 +32,6 @@
     "server": "json-server --watch db.json --port 5000",
     "dev": "concurrently \"npm run server\" \"npm run start\"",
     "serverexp": "nodemon server",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install && npm run build --prefix client"
   },
   "eslintConfig": {
     "extends": [
